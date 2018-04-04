@@ -1,0 +1,9 @@
+include ':myapplication'
+include 'lyraz'
+include 'wallet'
+include 'integration-android'
+
+include 'native-scrypt'
+//
+//include 'bitcoinj'
+//project(':bitcoinj').projectDir = new File(settingsDir, '/root/git/bitcoinj')
